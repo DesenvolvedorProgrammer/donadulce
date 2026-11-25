@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hamburgueria Dona Dulce — Classic Burger em Poços de Caldas</title>
+<meta name="description" content="O básico bem-feito desde 2014. Hambúrguer de carne 100% bovina feita na casa todos os dias, batata frita crocante e salão no Centro de Poços de Caldas. Delivery, retirada e salão de terça a domingo, a partir das 18h.">
+<meta name="theme-color" content="#9e1b1e">
+<link rel="icon" href="img/logo-dona-dulce-480.webp" type="image/webp">
+<link rel="preload" href="fonts/fraunces-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/double-bacon.webp" as="image">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#casa">Pular para o conteúdo</a>
+
+<!-- ===== CABEÇALHO ===== -->
+<header class="hd">
+  <a class="hd-logo" href="#inicio" aria-label="Hamburgueria Dona Dulce — início">
+    <img src="img/logo-dona-dulce-480.webp" alt="Hamburgueria Dona Dulce — Classic Burger" width="64" height="64">
+    <span class="hd-nome">Dona Dulce<small>Classic Burger · desde 2014</small></span>
+  </a>
+  <nav class="hd-nav" aria-label="Principal">
+    <a href="#casa">A casa</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#pedir">Pedidos</a>
+    <a href="#avaliacoes">Avaliações</a>
+    <a href="#visite">Visite</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <a class="btn btn-red hd-cta" href="https://app.cardapioweb.com/hamburgueriadonadulce" target="_blank" rel="noopener">Pedir agora</a>
+  <button class="hd-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="gaveta"><span></span><span></span></button>
+</header>
+
+<div class="gaveta" id="gaveta" hidden>
+  <nav aria-label="Menu móvel">
+    <a href="#casa">A casa</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#pedir">Como pedir</a>
+    <a href="#avaliacoes">Avaliações</a>
+    <a href="#visite">Visite o salão</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <div class="gaveta-ft">
+    <a class="btn btn-red" href="https://app.cardapioweb.com/hamburgueriadonadulce" target="_blank" rel="noopener">Pedir pelo cardápio online</a>
+    <a class="btn btn-ghost-light" data-wa href="#">WhatsApp (35) 3721-7921</a>
+  </div>
+</div>
+
+<main>
+
+<!-- ===== INÍCIO ===== -->
+<section class="hero" id="inicio" data-theme="light">
+  <div class="wrap hero-grid">
+    <div class="hero-txt">
+      <p class="selo rv"><span>Classic Burger</span><b>★</b><span>Poços de Caldas</span></p>
+      <h1 class="hero-t">
+        <span class="ln"><span class="rv-l">O básico</span></span>
+        <span class="ln"><span class="rv-l"><em>bem-feito</em></span></span>
+        <span class="ln"><span class="rv-l">desde 2014.</span></span>
+      </h1>
+      <p class="hero-sub rv">Carne 100% bovina feita na casa todos os dias, chapa bem quente, sal e o autêntico pão brioche. Sem conservante, sem textura industrial.</p>
+      <div class="hero-ctas rv">
+        <a class="btn btn-red btn-lg" href="https://app.cardapioweb.com/hamburgueriadonadulce" target="_blank" rel="noopener">Fazer meu pedido <span aria-hidden="true">→</span></a>
+        <a class="btn btn-line btn-lg" href="#cardapio">Ver o cardápio</a>
+      </div>
+      <ul class="hero-meta rv">
+        <li><b>4,8 ★</b><span>527 avaliações no Google</span></li>
+        <li><b>Ter a Dom</b><span>a partir das 18h</span></li>
+        <li><b>Salão · Delivery</b><span>e retirada</span></li>
+      </ul>
+    </div>
+    <div class="hero-arte">
+      <div class="prato">
+        <svg class="giro" viewBox="0 0 200 200" aria-hidden="true">
+          <defs><path id="circ" d="M100,100 m-86,0 a86,86 0 1,1 172,0 a86,86 0 1,1 -172,0"/></defs>
+          <text><textPath href="#circ">CARNE FRESCA FEITA NA CASA ★ DESDE 2014 ★ CLASSIC BURGER ★ </textPath></text>
+        </svg>
+        <div class="prato-foto rv-clip"><img src="img/double-bacon.webp" alt="Hambúrguer Dona Dulce com duas carnes, queijo derretido e bacon no pão brioche" width="750" height="500" fetchpriority="high"></div>
+      </div>
+      <img class="hero-badge rv" src="img/logo-dona-dulce-480.webp" alt="" aria-hidden="true" width="150" height="150">
+      <div class="etiqueta rv"><small>O da casa</small><b>Dona Dulce</b><span>2 carnes · 320g · queijo prato · bacon</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="xadrez" aria-hidden="true"></div>
+
+<!-- ===== CONHEÇA A CASA ===== -->
+<section class="casa" id="casa" data-theme="light">
+  <div class="wrap casa-grid">
+    <figure class="casa-foto rv-clip">
+      <img src="img/texas-neon.webp" alt="Texas Bacon sobre tábua de madeira, com o letreiro em neon da casa ao fundo" loading="lazy" width="750" height="719">
+      <figcaption>Na chapa desde 2014</figcaption>
+    </figure>
+    <div class="casa-txt">
+      <p class="kicker rv">Conheça a casa</p>
+      <h2 class="h2 rv">Carne, chapa bem quente, <em>sal e acompanhamentos.</em></h2>
+      <p class="lead rv">A Dona Dulce é uma hamburgueria artesanal do Centro de Poços de Caldas que aposta no clássico: fazer o básico muito bem feito.</p>
+      <p class="rv">A carne é fresca e preparada diariamente na própria casa, 100% bovina, sem conservantes. O hambúrguer de 160g vai para a chapa bem quente e chega no autêntico pão brioche — do Cheese Burger ao Dona Dulce, com duas carnes somando 320g. E a batata frita é crocante e sequinha até mesmo no delivery.</p>
+      <div class="fatos">
+        <div class="fato rv"><b>160g</b><span>de carne feita na casa em cada burger</span></div>
+        <div class="fato rv"><b>2014</b><span>o ano em que a chapa acendeu</span></div>
+        <div class="fato rv"><b>4,8</b><span>de nota com 527 avaliações no Google</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CARDÁPIO ===== -->
+<section class="cardapio" id="cardapio" data-theme="dark">
+  <div class="wrap">
+    <div class="sec-head centro">
+      <p class="kicker claro rv">Nosso cardápio</p>
+      <h2 class="h2 rv">Escolha o <em class="neon">seu clássico.</em></h2>
+      <p class="sec-sub rv">Todos os lanches, combos, porções e bebidas da casa. De terça a quinta tem ofertas exclusivas no cardápio online.</p>
+    </div>
+    <div class="tabs rv" role="tablist" aria-label="Categorias do cardápio"></div>
+    <p class="cat-intro" id="catIntro"></p>
+    <div class="menu-list" id="menuList" role="tabpanel" aria-live="polite"></div>
+    <div class="menu-foot rv">
+      <p>Preços do cardápio online oficial em novembro de 2026 — podem mudar. Itens em oferta mostram o preço promocional e o preço cheio. Disponibilidade e valores finais aparecem no momento do pedido.</p>
+      <a class="btn btn-yellow" href="https://app.cardapioweb.com/hamburgueriadonadulce" target="_blank" rel="noopener">Abrir cardápio online ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COMO PEDIR ===== -->
+<section class="pedir" id="pedir" data-theme="light">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker rv">Faça seu pedido</p>
+      <h2 class="h2 rv">Em casa, na retirada <em>ou no salão.</em></h2>
+    </div>
+    <div class="modos">
+      <article class="modo modo-red rv">
+        <span class="modo-ic" aria-hidden="true">01</span>
+        <h3>Delivery</h3>
+        <p>Peça pelo cardápio online da casa: escolha os lanches, calcule a taxa e o tempo de entrega e acompanhe o pedido.</p>
+        <a class="btn btn-yellow" href="https://app.cardapioweb.com/hamburgueriadonadulce" target="_blank" rel="noopener">Pedir online ↗</a>
+      </article>
+      <article class="modo rv">
+        <span class="modo-ic" aria-hidden="true">02</span>
+        <h3>Retirada</h3>
+        <p>Faça o pedido online ou pelo WhatsApp e retire no balcão de delivery: Rua Assis Figueiredo, 407 — Centro.</p>
+        <a class="btn btn-red" data-wa href="#">Chamar no WhatsApp</a>
+      </article>
+      <article class="modo rv">
+        <span class="modo-ic" aria-hidden="true">03</span>
+        <h3>No salão</h3>
+        <p>Venha comer na chapa: salão na Rua Assis Figueiredo, 376 — Centro, de terça a domingo, a partir das 18h.</p>
+        <a class="btn btn-line" href="#visite">Ver horários e mapa</a>
+      </article>
+    </div>
+    <div class="extras rv">
+      <div><b>Pagamento</b><span>Dinheiro, Pix, cartão de crédito e débito</span></div>
+      <div><b>Cashback</b><span>2,5% de volta em cada pedido pelo cardápio online</span></div>
+      <div><b>Ofertas</b><span>De terça a quinta, promoções exclusivas #vemprodonadulce</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== AVALIAÇÕES ===== -->
+<section class="avaliacoes" id="avaliacoes" data-theme="dark">
+  <div class="wrap">
+    <div class="aval-head">
+      <div>
+        <p class="kicker claro rv">Avaliações</p>
+        <h2 class="h2 rv">Quem prova, <em>volta.</em></h2>
+      </div>
+      <div class="placar rv">
+        <span class="placar-n">4,8</span>
+        <span class="placar-e" aria-hidden="true">★★★★★</span>
+        <span class="placar-t">527 avaliações no Google</span>
+        <span class="placar-b"><i style="--w:88%"></i></span><span class="placar-s">462 delas com 5 estrelas</span>
+      </div>
+    </div>
+    <div class="avals">
+      <figure class="av rv"><blockquote>“Melhor Hamburgueria de Poços de Caldas (…) Gosto sempre de pedir o Hambúrguer Dona Dulce, com duas carnes, extremamente suculentas.”</blockquote><figcaption><b>Rafael L.</b><span>Google · ★★★★★</span></figcaption></figure>
+      <figure class="av rv"><blockquote>“Um dos melhores hambúrgueres que já comi na vida! (…) A batata completa também estava perfeita, bem sequinha e com um catupiry de ótima qualidade.”</blockquote><figcaption><b>Bruna R.</b><span>Google · ★★★★★</span></figcaption></figure>
+      <figure class="av rv"><blockquote>“Local super aconchegante e onde se consegue ver o verdadeiro protagonismo da carne preparada na casa diariamente.”</blockquote><figcaption><b>Samia C.</b><span>Google · ★★★★★</span></figcaption></figure>
+      <figure class="av rv"><blockquote>“Sem chance de ir para Poços e não bater o ponto na Dona Dulce! Melhor hambúrguer da vida, carne perfeita, no ponto e fritas crocantes.”</blockquote><figcaption><b>Vivian V.</b><span>Google · ★★★★★</span></figcaption></figure>
+      <figure class="av rv"><blockquote>“O lanche é bom, mas a batata frita é boa demais e não seria exagero dizer que é uma das melhores que já comi.”</blockquote><figcaption><b>Luís K.</b><span>Google · ★★★★★</span></figcaption></figure>
+      <figure class="av rv"><blockquote>“O melhor e mais saboroso lanche de Poços, com destaque para o ‘Franguito’!”</blockquote><figcaption><b>Carla S.</b><span>Google · ★★★★★</span></figcaption></figure>
+    </div>
+    <div class="aval-pe rv">
+      <span>Trechos de avaliações públicas do Google.</span>
+      <a class="link" href="https://maps.google.com/?cid=18167992789031578315" target="_blank" rel="noopener">Ler todas as avaliações ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALERIA ===== -->
+<section class="galeria" id="galeria" data-theme="light">
+  <div class="wrap">
+    <div class="sec-head linha">
+      <div>
+        <p class="kicker rv">Galeria</p>
+        <h2 class="h2 rv">Direto <em>da chapa.</em></h2>
+      </div>
+      <a class="link rv" href="https://www.instagram.com/hamburgueriadonadulce/" target="_blank" rel="noopener">Mais no Instagram @hamburgueriadonadulce ↗</a>
+    </div>
+    <div class="gal">
+      <button class="gi gi-1 rv-clip" data-src="img/na-mao.webp"><img src="img/na-mao.webp" alt="Hambúrguer com picles, queijo e bacon segurado com as mãos" loading="lazy"></button>
+      <button class="gi gi-2 rv-clip" data-src="img/fritas.webp"><img src="img/fritas.webp" alt="Batata frita crocante em travessa sobre pano xadrez" loading="lazy"></button>
+      <button class="gi gi-3 rv-clip" data-src="img/cheese-egg.webp"><img src="img/cheese-egg.webp" alt="Cheese Egg com ovo frito e queijo derretido" loading="lazy"></button>
+      <button class="gi gi-4 rv-clip" data-src="img/salada-bacon.webp"><img src="img/salada-bacon.webp" alt="Hambúrguer com alface, tomate, queijo e bacon" loading="lazy"></button>
+      <button class="gi gi-5 rv-clip" data-src="img/nuggets.webp"><img src="img/nuggets.webp" alt="Nuggets crocantes em travessa de cobre" loading="lazy"></button>
+      <button class="gi gi-6 rv-clip" data-src="img/americano-bacon.webp"><img src="img/americano-bacon.webp" alt="Hambúrguer com picles, ketchup, mostarda e bacon" loading="lazy"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VISITE ===== -->
+<section class="visite" id="visite" data-theme="light">
+  <div class="wrap visite-grid">
+    <div class="visite-info">
+      <p class="kicker rv">Planeje sua visita</p>
+      <h2 class="h2 rv">No Centro de <em>Poços de Caldas.</em></h2>
+      <div class="enderecos">
+        <div class="end rv"><span>Salão</span><b>R. Assis Figueiredo, 376</b><small>Centro · Poços de Caldas — MG</small></div>
+        <div class="end rv"><span>Delivery e retirada</span><b>R. Assis Figueiredo, 407</b><small>Centro · Poços de Caldas — MG</small></div>
+      </div>
+      <table class="horas rv" aria-label="Horário de funcionamento">
+        <tbody>
+          <tr data-d="2"><th>Terça</th><td>18h – 23h</td></tr>
+          <tr data-d="3"><th>Quarta</th><td>18h – 23h</td></tr>
+          <tr data-d="4"><th>Quinta</th><td>18h – 23h</td></tr>
+          <tr data-d="5"><th>Sexta</th><td>18h – 23h30</td></tr>
+          <tr data-d="6"><th>Sábado</th><td>18h – 23h30</td></tr>
+          <tr data-d="0"><th>Domingo</th><td>18h – 23h</td></tr>
+          <tr data-d="1" class="fechado"><th>Segunda</th><td>Fechado</td></tr>
+        </tbody>
+      </table>
+      <p class="status rv" id="status"></p>
+      <div class="btn-row rv">
+        <a class="btn btn-red" href="https://www.google.com/maps/dir/?api=1&amp;destination=R.+Assis+Figueiredo,+376+-+Centro,+Po%C3%A7os+de+Caldas+-+MG" target="_blank" rel="noopener">Como chegar ↗</a>
+        <a class="btn btn-line" href="tel:+553537217921">Ligar (35) 3721-7921</a>
+      </div>
+      <p class="fine rv">Horários conforme o perfil da casa no Google. Em feriados, confirme pelo WhatsApp.</p>
+    </div>
+    <div class="mapa rv-clip">
+      <iframe title="Mapa — Hamburgueria Dona Dulce, R. Assis Figueiredo, 376, Poços de Caldas" src="https://www.google.com/maps?q=Hamburgueria+Dona+Dulce,+R.+Assis+Figueiredo,+376+-+Centro,+Po%C3%A7os+de+Caldas+-+MG&amp;z=17&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTATO ===== -->
+<section class="contato" id="contato" data-theme="dark">
+  <div class="wrap contato-in">
+    <img class="contato-logo rv" src="img/logo-dona-dulce-480.webp" alt="" aria-hidden="true" width="130" height="130">
+    <p class="kicker claro centro-k rv">Contato</p>
+    <h2 class="mega rv">Bateu a fome? <em class="neon">#vemprodonadulce</em></h2>
+    <div class="canais">
+      <a class="canal rv" href="https://app.cardapioweb.com/hamburgueriadonadulce" target="_blank" rel="noopener"><span>Pedido online</span><b>Cardápio Web</b></a>
+      <a class="canal rv" data-wa href="#"><span>WhatsApp</span><b>(35) 3721-7921</b></a>
+      <a class="canal rv" href="https://www.instagram.com/hamburgueriadonadulce/" target="_blank" rel="noopener"><span>Instagram</span><b>@hamburgueriadonadulce</b></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== RODAPÉ ===== -->
+<footer class="ft" data-theme="light">
+  <div class="xadrez fino" aria-hidden="true"></div>
+  <div class="wrap ft-grid">
+    <div class="ft-marca">
+      <img src="img/logo-dona-dulce-480.webp" alt="Hamburgueria Dona Dulce — Classic Burger" width="110" height="110" loading="lazy">
+      <p>O básico bem-feito desde 2014. Hambúrguer artesanal com carne feita na casa, no Centro de Poços de Caldas.</p>
+    </div>
+    <nav class="ft-col" aria-label="Rodapé">
+      <h4>Navegue</h4>
+      <a href="#casa">A casa</a><a href="#cardapio">Cardápio</a><a href="#pedir">Como pedir</a><a href="#avaliacoes">Avaliações</a><a href="#visite">Visite</a><a href="#contato">Contato</a>
+    </nav>
+    <div class="ft-col">
+      <h4>Endereços</h4>
+      <p><b>Salão</b><br>R. Assis Figueiredo, 376 — Centro</p>
+      <p><b>Delivery e retirada</b><br>R. Assis Figueiredo, 407 — Centro</p>
+    </div>
+    <div class="ft-col">
+      <h4>Horários</h4>
+      <p>Ter a qui e dom · 18h – 23h<br>Sex e sáb · 18h – 23h30<br>Segunda · fechado</p>
+      <a data-wa href="#">WhatsApp (35) 3721-7921</a>
+    </div>
+  </div>
+  <div class="wrap ft-base">
+    <span>© <span id="ano">2026</span> Hamburgueria Dona Dulce.</span>
+    <span>Prévia de site desenvolvida pela <b>NH Digital</b>.</span>
+  </div>
+</footer>
+
+<div class="mbar">
+  <a class="mbar-a" href="https://app.cardapioweb.com/hamburgueriadonadulce" target="_blank" rel="noopener">Pedir agora</a>
+  <a class="mbar-b" data-wa href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Foto ampliada">
+  <button class="lb-x" aria-label="Fechar">×</button>
+  <img id="lbImg" src="" alt="">
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.03c-.24.68-1.42 1.3-1.95 1.35-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.92-4.66-4.1-.13-.18-1.11-1.48-1.11-2.82s.7-2 .95-2.27c.25-.27.54-.34.72-.34h.52c.17 0 .4-.06.62.47.24.55.79 1.9.86 2.04.07.14.11.3.02.48-.09.18-.14.3-.27.46-.14.16-.29.36-.41.48-.14.14-.28.28-.12.56.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.14.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.66-.17 1.33z"/></symbol>
+</svg>
+
+<script src="cardapio.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
